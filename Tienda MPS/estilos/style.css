@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Texturina:ital,opsz,wght@0,12..72,300;0,12..72,400;0,12..72,500;0,12..72,600;0,12..72,700;1,12..72,500&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F1F1F1;
+    font-family: 'Texturina', serif;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+#navHome {
+    display: flex;
+    width: 100%;
+    background-color: #76A1A6;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 40px;
+    background-image: url(../multimedia/patitas.png);
+}
+
+nav {
+    width: 60%;
+    font-size: large;
+    font-family: 'Texturina', serif;
+
+}
+
+.lista {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.lista>li {
+    list-style: none;
+    width: 50%;
+}
+
+.lista>li>a> {
+    text-decoration: none;
+    font-family: 'Texturina', serif;
+}
+
+ul>li>a {
+    color: #F2CECE;
+    text-decoration: none;
+}
+
+#root {
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+#buscador {
+    margin: 50px;
+    padding: 20px;
+    width: max-content;
+    margin: auto;
+}
+
+#buscador>input {
+    width: 800px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #76A1A6;
+}
+
+#containerCategorias {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+#containerCategorias>.btn-categoria {
+    margin: 10px;
+    border: 4px solid #76A1A6;
+    padding: 20px;
+    font-family: 'Texturina', serif;
+    text-decoration: none;
+    color: #F2A0A0;
+    border-radius: 20px;
+}
+
+#containerCategorias>.btn-categoria:hover {
+    background-color: #C5D9D9;
+    color: white;
+
+}
+
+#contenedorProductos {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-family: 'Texturina', serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #F2A0A0
+}
+
+.card>img {
+    display: flex;
+    width: 20rem;
+    height: 300px;
+    padding: 0, 6px;
+    border-radius: 20px;
+
+}
+
+.card>span {
+    margin: 2px;
+}
+
+.card>button {
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    font-family: 'Texturina', serif;
+    color: #F2A0A0;
+    background-color: #76A1A6;
+    background-image: url(../multimedia/patitas.png);
+}
+
+footer {
+    width: 100%;
+    background-color: #76A1A6;
+    padding: 50 px 50 px;
+    position: fixed;
+    background-image: url(../recursos/patitas.png);
+}

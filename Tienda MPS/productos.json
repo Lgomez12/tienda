@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "nombre": "Vestido Rosa",
+        "precio": 500,
+        "stock": 10,
+        "categoria": "Indumentaria",
+        "img": "./multimedia/vestido.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Chaleco de Jean",
+        "precio": 700,
+        "stock": 10,
+        "categoria": "Indumentaria",
+        "img": "./multimedia/chaleco.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Vestido Floreado",
+        "precio": 800,
+        "stock": 10,
+        "categoria": "Indumentaria",
+        "img": "./multimedia/9.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Gorro Pirata",
+        "precio": 600,
+        "stock": 10,
+        "categoria": "Accesorios",
+        "img": "./multimedia/gorro.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Bolso de Viaje",
+        "precio": 900,
+        "stock": 10,
+        "categoria": "Accesorios",
+        "img": "./multimedia/bolso.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Toalla",
+        "precio": 500,
+        "stock": 10,
+        "categoria": "Higiene",
+        "img": "./multimedia/toalla.png"
+    },
+    {
+        "id": 7,
+        "nombre": "Combo Shampoo y Crema de Enjuague",
+        "precio": 400,
+        "stock": 10,
+        "categoria": "Higiene",
+        "img": "./multimedia/combo.png"
+    },
+    {
+        "id": 8,
+        "nombre": "Bolsas Higienicas",
+        "precio": 100,
+        "stock": 10,
+        "categoria": "Higiene",
+        "img": "./multimedia/bolsas.png"
+    }
+]
